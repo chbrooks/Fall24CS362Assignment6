@@ -145,8 +145,11 @@ I'm looking for thoroughness, creativity, and effective use of LLMs as a tool fo
 "Hey ChatGPT summarize this article" is not the idea. Feel free to generate links, diagrams, lists,
 or whatever learning tools you think are most effective.
 Rubric:
+
 completeness: 5 points
+
 effective use of LLMs: 10 points
+
 creativity: 5 points
 
 
