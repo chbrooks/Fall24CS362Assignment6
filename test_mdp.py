@@ -3,7 +3,7 @@ import mdp
 
 class TestMDP(TestCase):
     def test_init(self):
-        m = mdp.MDP(mapfile='rnGraph')
+        m = mdp.MDP(mapfile='rnGraph.actions')
         print(m)
 
     def test_computeEU(self):

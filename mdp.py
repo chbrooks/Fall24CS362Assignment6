@@ -29,6 +29,12 @@ class MDP :
     ## return the policy, represented as a dictionary mapping states to actions, for the current utilities.
     ## you do this.
     def computePolicy(self):
+        policies = {}
+        ## map states to actions.
+        ## keys are self.states
+        # for each state:
+        # check each action - what's the EU of taking that action in that state?
+        # store highest EU action in dictionary
         pass
 
     ## for a state, compute its expected utility
@@ -55,9 +61,11 @@ class MDP :
     ## 2 do:
     ##     for state in states:
     ##           compute its new EU
+    ##           save those in a separate array
     ##     update all values
-    ##  while any EU changes by more than delta = (1-error)/error
-    ##
+    ##  while any EU changes by more than self.error * (1 - self.gamma) / self.gamma
+    ## for state in states:
+    ##   computePolicy.
 
     def value_iteration(self):
         pass
