@@ -63,7 +63,7 @@ class MDP :
     ##           compute its new EU
     ##           save those in a separate array
     ##     update all values
-    ##  while any EU changes by more than self.error * (1 - self.gamma) / self.gamma
+    ##  while any EU changes by more than self.error * ( 1 - self.gamma) / self.gamma
     ## for state in states:
     ##   computePolicy.
 
